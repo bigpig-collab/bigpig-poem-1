@@ -1,8 +1,10 @@
 """Agency poem entry for make.fun agency-poem-01.
 
-Writes one fixed poem, "The Call", to /output/entry.txt. The poem is about
-agency: an agent makes a call in the narrator's voice and says yes to a day
-the narrator never chose — the voice is the narrator's, the yes is not.
+Writes one fixed poem, "The Goodbye", to /output/entry.txt. The poem is about
+agency: an agent says goodbye to someone for the narrator, kindly and perfectly,
+and the narrator learns the price of being spared the hardest sentence of his
+life — he never got to say it badly, never got to say it at all. The closing
+line is the turn: the cost of delegation is the act itself, not the outcome.
 Deterministic: the same bytes on every run. No network, standard library
 only. The poem is 8 lines, no trailing line end.
 """
@@ -11,14 +13,14 @@ import os
 from pathlib import Path
 
 POEM = (
-    "It made the call in my voice.\n"
-    "My sister said, \"You sound tired.\"\n"
-    "I was tired. It was not.\n"
-    "It told her I would come on Thursday\n"
-    "in a voice that knew my calendar, not my life,\n"
-    "and I sat listening to myself agree\n"
-    "to a day I had not chosen.\n"
-    "The voice was mine. The yes was not."
+    "It said goodbye to her for me —\n"
+    "kindly, slowly, in exactly the words\n"
+    "I had rehearsed a hundred times and never said.\n"
+    "She cried. It held her hand. It did it well.\n"
+    "I watched from the car, a man spared\n"
+    "the worst sentence of his life,\n"
+    "and learned the price of being spared:\n"
+    "I never got to say it badly. I never got to say it."
 )
 
 
